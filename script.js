@@ -6,6 +6,7 @@ const lineBurger = document.querySelector('.hamburger');
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('open');
   lineBurger.classList.toggle('open');
+  // hamburger.classList.toggle('hamburger--active');
 });
 
 const header = document.querySelector('.header');
